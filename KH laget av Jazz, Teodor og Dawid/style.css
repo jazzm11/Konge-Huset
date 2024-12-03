@@ -1,0 +1,183 @@
+/* Universal Selector */
+* {
+    margin: 0px;
+}
+body {
+    height: 100vh;
+    width: 100%h;
+}
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    padding-top: 50px;
+    border-bottom: 1px solid ;
+}
+.navigation li a {
+    font-family: "vivaldi-mn", sans-serif;
+    font-size: x-large;
+    font-style: normal;
+    font-weight: bold;
+    color: #B2993E;
+    text-decoration: none;
+}
+.navigation li {
+    list-style-type: none;
+}
+#logo {
+    margin-left: 25px;
+}
+
+/* Main Page */
+.sec_container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+.third_container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+.box {
+    background-color: #f5f5f5;
+    height: 500px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #B2993E;
+    font-family: "vivaldi-mn", sans-serif;
+}
+.box_link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+}
+.box_link img {
+    margin-bottom: 30px;
+}
+.page_info {
+    width: 500px;
+    color: rgb(47, 47, 47);
+    font-size: large;
+    font-family: none;
+}
+.fourth_container {
+    display: flex;
+    justify-content: center;
+}
+.imgs {
+    border-radius: 10px;
+}
+.overview {
+    height: 500px;
+    width: 90%;
+    background-color:#f5f5f5;
+    margin: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Page Header */
+.text_header {
+    display: flex;
+    justify-content: center;
+    font-size: 150px;
+    color: #B2993E;
+    font-family: "vivaldi-mn", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 50px;
+}
+
+/* Huset Page */
+.kongehuset {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.kongehuset_text {
+    display: flex;
+    justify-content: center;
+}
+.kongehuset_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 800px;
+    height: 600px;
+}
+
+/* Statue Page */
+.statuer, .annen_statuer{
+    display: flex;
+    justify-content: center;
+}
+.statue_content, .garden_content, .mai_content {
+    background-color: #f5f5f5;
+    height: 600px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 20px;
+    font-size: 30px;
+    color: #B2993E;
+}
+.statue_content img, .garden_content img, .mai_content img, .kongehuset img  {
+    border-radius: 10px;
+}
+.statue_text {
+    font-size: large;
+    color: rgb(47, 47, 47);
+}
+
+/* Garden */
+.garden {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.garden_sec_content {
+    width: 50%;
+    height: 300px;
+}
+
+/* Mai */
+.mai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mai_sec_content {
+    width: 50%;
+    height: 500px;
+}
+
+/* Footer */
+footer {
+    background-color: gray;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
